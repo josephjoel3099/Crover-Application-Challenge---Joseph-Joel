@@ -23,8 +23,15 @@
 4. Handling CSV files can be streamlined by having all data in one file.
 
 # Results
-Black line represents true position of the car.
-Green dots represents estimated position of the robot.
-Red line represents estimated path of the robot.
-
+Black line represents true path of the car.
+Green dots represents estimated position of the car.
+Red line represents estimated path of the car.
 ![Figure_1](https://user-images.githubusercontent.com/65588195/130364490-94a9e5be-d7e1-4f7c-b4fd-e1e733bcd0fe.png)
+
+Black line represents true path of the car.
+Red line represents estimated path of the car.
+![Figure_2](https://user-images.githubusercontent.com/65588195/130364651-3481043a-0ab7-470b-b557-36aff176336e.png)
+
+Red line represents estimated path of the car.
+![Figure_3](https://user-images.githubusercontent.com/65588195/130364719-e66efe7f-b895-43cb-83d2-74a070da45d3.png)
+

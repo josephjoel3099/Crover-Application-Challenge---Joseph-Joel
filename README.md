@@ -42,6 +42,7 @@ Red line represents estimated path of the car.
 
 *Estimated position data is recorded to a csv after the car.py script runs.*
 
+![Figure_4](https://github.com/josephjoel3099/Crover-Application-Challenge---Joseph-Joel/blob/7f9ce33a3c2bee8724559634681d4f55860d2177/additional_files/ekf.gif)
 
 # Work Description
 The task was very challenging and interesting. I had a lot of fun making scripts. Localization is a very important part in robotics and in my experience this is where we realize that in practice a lot of noise and other factors come into place. Whereas, in theory it is easy to understand. It is simply the systems ability to know where it is with respect to a frame of origin. I started with the mindset of since rosbag file is given the best way to do is with ROS. But I realised it is not that straight forward. I have no experience in using rosbag files. I recently learnt that we can record and play data using rosbags and visualize in rviz. I then moved to python. It was clear that I have two sensor data (GNSS and Odometry) and therefore there is a need for sensor fusion to get a good localization. I have learnt in theory that EKF is the way to fuse two data. What I have understood is that the sensors give same data with different levels of accuracy with different frequency. The first thing to note is that the total number of data are different. With this basic understanding I started writing the script. Listing issues faced  and new things learnt during the course of the challenge:
